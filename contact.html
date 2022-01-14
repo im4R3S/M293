@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact | Arès</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" type="image/png" href="img/earthCrop.jpeg"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="contact">
+        <header class="header">
+            <a href="index.html" class="logo"><img src="img/earthCrop.jpeg" alt="logo"></a><a class="textlogo">Arès</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                <li><a href="agenda.html" title="agenda">Agenda</a></li>
+                <li><a href="doc.html" title="Documentation">Doc</a></li>
+                <li><a href="contact.html" title="Contact" class="selected">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <section>
+                <div class="box">
+                    <h1>Contact me</h1>
+                    <form action="tks.html" autocomplete="off">
+                        <div class="div-table">
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="text" required>
+                                        <label>Name</label>
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="text" required>
+                                        <label>First Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="tel" required>
+                                        <label>Phone</label>
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="email" required>
+                                        <label>Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="datetime-local">
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input list="datalist" required>
+                                        <datalist id="datalist">
+                                            <option>Swiss</option>
+                                            <option>France</option>
+                                            <option>Belgium</option>
+                                        </datalist>
+                                        <label>Country</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <textarea required placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div-table-row">
+                                <div class="div-table-col" style="width: 24rem">
+                                    <input type="checkbox" required> I agree terms and conditions of this website.
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <input type="reset" value="Reset" class="button">
+                                    <input type="submit" value="Send" class="button">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <button onclick="upFunction()" id="upBtn" title="Up"><img  class="btnImg" src="img/up.png" alt="Remonter"></button>
+        </main>
+        <footer id="footer" class="footer">
+            <p>Powered by: <a href="https://github.com/Xaedraz" target="_blank" class="underline">Arès</a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

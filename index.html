@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home | Arès</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" type="image/png" href="img/earthCrop.jpeg"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://xaedraz.github.io/M293/">
+        <meta property="og:title" content="Arès | M293 website">
+        <meta property="og:description" content="M293 website of Arès, containing various informations about him.">
+        <meta property="og:image" content="img/earthCrop.jpeg">
+    </head>
+    <body id="home">
+        <header class="header">
+            <a href="index.html" class="logo"><img src="img/earthCrop.jpeg" alt="logo"></a><a class="textlogo">Arès</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html" title="Home" class="selected">Home</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                <li><a href="agenda.html" title="Agenda">Agenda</a></li>
+                <li><a href="doc.html" title="Documentation">Doc</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <section class="welcome">
+                <div class="middle-left">
+                    <h1>Hi, I'm <a href="https://fr.wikipedia.org/wiki/Ar%C3%A8s" target="_blank" class="underline">Arès</a>.</h1>
+                    <p>I'm a 16 years old developer apprentice working at <a href="https://www.jaeger-lecoultre.com/ch/fr/" target="_blank" class="underline">Jaeger-LeCoultre</a>.
+                    <br>On this website, you will be able to know more <a href="about.html" class="underline">about me</a> and my <a href="projects.html" class="underline">projects</a>.</p><br>
+                </div>
+                <div class="middle-right" style="margin-top:5%;">
+                    <img src="img/earthCrop.jpeg" alt="Earth" class="earth">
+                </div>
+            </section>
+            <button onclick="upFunction()" id="upBtn" title="Up"><img  class="btnImg" src="img/up.png" alt="Remonter"></button>
+        </main>
+        <footer id="footer" class="footer">
+            <p>Powered by: <a href="https://github.com/Xaedraz" target="_blank" class="underline">Arès</a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
